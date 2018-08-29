@@ -1,7 +1,7 @@
 # ssisTools
 PowerShell Tools to Automate SSIS Build and Deploy
 
-#Installation
+# Installation
 
 Copy the ssisTools.psm1 folder to 
 C:\Program Files\WindowsPowerShell\Modules\ssisTools\ssisTools.psm1
