@@ -81,7 +81,7 @@ function Start-DbaSsisDeploy
     if (!$ssisFolder)
     {
         Write-Host "Creating Folder ..."
-        $folder = New-Object "$ISNamespace.CatalogFolder" ($ssisCatalog, $Folder, $Folder)            
+        $folder = New-Object "$SSISNamespace.CatalogFolder" ($ssisCatalog, $Folder, $Folder)            
         $folder.Create()  
     }
 
